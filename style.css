@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+
+  line-height: 16px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.main {
+  padding: 0 40px;
+  border: 1px solid #333;
+  border-top: 4px solid #4285f4;
+  border-radius: 5px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.login {
+  background-color: white;
+  /* width: 500px; */
+
+  height: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.header-top {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.header-top-list__img {
+  width: 150px;
+  height: 150px;
+}
+
+.header-top-list {
+  list-style: none;
+}
+
+.header-top-list__item {
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.header-top-list__item:last-child {
+  font-size: 16px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name,
+.pass {
+  font-size: 18px;
+  height: 50px;
+  min-width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+.pass {
+  margin-top: 20px;
+}
+
+.check {
+  display: flex;
+  background-color: bisque;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: calc(100% - 0px);
+  border-radius: 5px;
+  padding: 0 20px;
+}
+
+.check__box {
+  width: 30px;
+  height: 30px;
+}
+
+.check__text {
+  font-size: 20px;
+}
+
+.check__img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+}
+
+.Forgot_password,
+.tutorial {
+  font-size: 18px;
+  color: red;
+}
+
+.blue {
+  color: rgb(4, 0, 255);
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  margin: 40px 0px;
+  background-color: #4285f4;
+  color: white;
+  font-size: 20px;
+}
